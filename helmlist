@@ -1,0 +1,20 @@
+
+
+
+[ ec2-user@ip-172-31-92-29 ~/01.k8-helm-expense/frontend ]$ helm list
+NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART           APP VERSION
+backend         expense         1               2025-01-11 10:19:57.102748723 +0000 UTC deployed        backend-0.0.1
+frontend        expense         1               2025-01-11 10:33:08.142047775 +0000 UTC deployed        frontend-0.0.1
+mysql           expense         1               2025-01-11 10:10:18.045000253 +0000 UTC deployed        mysql-0.0.1
+
+
+[ ec2-user@ip-172-31-92-29 ~/01.k8-helm-expense ]$ k9s
+ Context: terraform@expense.us-east-1.eksctl.io    <0> all       <a>       Attach       <ctrl-k>  Kill            <o> Show Node                              ____  __.________
+ Cluster: expense.us-east-1.eksctl.io              <1> expense   <ctrl-d>  Delete       <l>       Logs            <f> Show PortForward                      |    |/ _/   __   \______
+ User:    terraform@expense.us-east-1.eksctl.io    <2> default   <d>       Describe     <p>       Logs Previous   <t> Transfer                              |      < \____    /  ___/
+ K9s Rev: v0.32.7                                                <e>       Edit         <shift-f> Port-Forward    <y> YAML                                  |    |  \   /    /\___ \
+ K8s Rev: v1.30.8-eks-2d5f260                                    <?>       Help         <z>       Sanitize                                                  |____|__ \ /____//____  >
+ CPU:     n/a                                                    <shift-j> Jump Owner   <s>       Shell                                                             \/            \/
+ MEM:     n/
+
+
